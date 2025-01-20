@@ -201,6 +201,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-features-text,
@@ -228,6 +229,11 @@ button {
 }
 
 /* feautures */
+
+.feat-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .feat-list {
   display: flex;
@@ -257,6 +263,8 @@ button {
 
 .section-team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
