@@ -83,24 +83,6 @@ a {
   text-decoration: none;
 }
 
-button {
-  background-color: #4d5ae5;
-  cursor: pointer;
-  text-transform: capitalize;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: 0.04em;
-  color: #fff;
-  padding: 16px 32px;
-  border-radius: 4px;
-  border: none;
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-}
-
 .button:hover,
 .button:focus {
   background-color: #404bbf;
@@ -151,11 +133,22 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  margin: 0 auto;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  /*text-transform: capitalize;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;*/
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  min-width: 169px;
 }
 
-.button-text {
-  background-color: #4d5ae5;
-}
 .button-text:hover,
 .button-text:focus {
   background-color: #404bbf;
@@ -308,12 +301,17 @@ button {
 
 /* portfolio */
 
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .port-list {
   display: flex;
   row-gap: 48px;
   column-gap: wrap;
   justify-content: center;
-  column-gap: 48px;
+  column-gap: 28px;
   flex-wrap: wrap;
 }
 
