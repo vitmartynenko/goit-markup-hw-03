@@ -27,6 +27,7 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 .head-container {
@@ -136,11 +137,6 @@ a {
   margin: 0 auto;
   background-color: #4d5ae5;
   cursor: pointer;
-  /*text-transform: capitalize;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;*/
   letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
@@ -308,11 +304,9 @@ a {
 
 .port-list {
   display: flex;
+  flex-wrap: wrap;
   row-gap: 48px;
-  column-gap: 24px;
-  justify-content: center;
-  column-gap: 28px;
-  /* flex-wrap: wrap;*/
+  gap: 24px;
 }
 
 .port-card {
