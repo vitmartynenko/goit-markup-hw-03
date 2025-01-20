@@ -230,6 +230,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 /* feautures */
@@ -312,6 +313,8 @@ button {
   row-gap: 48px;
   column-gap: wrap;
   justify-content: center;
+  column-gap: 48px;
+  flex-wrap: wrap;
 }
 
 .port-card {
