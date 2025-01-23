@@ -329,6 +329,7 @@ a {
 
 .section-footer .logo-main {
   margin-bottom: 16px;
+  margin-right: 0;
   display: inline-block;
 }
 
